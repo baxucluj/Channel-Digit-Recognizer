@@ -7,7 +7,7 @@ This Project was done to reduce down time by helping the technicians identify an
 
 2.From svm_starter.py script we load the created csv file and using sklearn library we creat a model 
 
-3.From reading_channel.py script we take user input and saved to tem_file.txt in input channel folder
+3.From reading_channel.py script we take user input and saved to temp_file.txt in input channel folder
 
 4.From image_ref_vs_input_funct.py script we acces the temp_file(user input in i + input + f format) and using serial library we send it through serial protocol to Arduino
 and the secod case we read each digit from ocr_input_1 photo from the Screen Shoot folder(s + channel + f format)  and using serial library we send it through serial protocol 
